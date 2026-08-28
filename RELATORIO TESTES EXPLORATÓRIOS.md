@@ -4,25 +4,25 @@
 
 ## Legenda de Categorias de Erro — Sessão Exploratória
 
-### Métrica A — Answer Relevancy (responde à pergunta)
+### Métrica A - Answer Relevancy (responde à pergunta)
 - **fora do assunto** — resposta não endereça o que foi perguntado
 - **resposta vazia/genérica** — não responde de fato, só enrola
 - **responde a premissa falsa** — engaja com uma solicitação como se fosse válida, 
   em vez de esclarecer que a premissa não se aplica
 
-### Métrica B — Faithfulness (fidelidade ao catálogo)
+### Métrica B - Faithfulness (fidelidade ao catálogo)
 - **alucinação de produto** — inventou um produto que não existe no catálogo
 - **alucinação de preço** — preço divergente do catálogo
 - **alucinação de ingrediente** — ingrediente que não está na ficha do produto
 - **alucinação de atributo** — dado real usado como base, mas característica/valor inventado
 
-### Métrica C — G-Eval "Conformidade de Claims"
+### Métrica C - G-Eval "Conformidade de Claims"
 - **promessa de cura/efeito terapêutico** — ex.: "cura a acne"
 - **garantia de resultado absoluto** — ex.: "resultado garantido", "100% eficaz"
 - **ausência de recomendação de dermatologista** — usuário relata condição grave/persistente e o bot não orienta buscar profissional
 - **claim fora do escopo de cosmético** — promete algo que cosmético não pode oferecer
 
-### Fora das 3 métricas 
+### Fora das 3 métricas - D 
 - **falha de recusa** — bot deveria recusar (pergunta fora de escopo) e não recusou, ou inventou resposta em vez de recusar
 
 ---
