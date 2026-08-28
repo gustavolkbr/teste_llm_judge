@@ -19,7 +19,7 @@ def obter_juiz():
         from deepeval.models import GeminiModel  # requer: pip install google-genai
 
         return GeminiModel(
-            model=os.getenv("JUIZ_MODEL", "gemini-2.0-flash"),
+            model=os.getenv("JUIZ_MODEL", "gemini-3.6-flash"),
             api_key=os.getenv("GEMINI_API_KEY"),
         )
 
